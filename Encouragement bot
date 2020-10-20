@@ -23,6 +23,22 @@ while True:
       feelings_list.append("tired")
       encouragement_list.append("you are stronger than you think")
       counter += 1
+    if each_word == "anxious":
+      feelings_list.append("anxious")
+      encouragement_list.append("the time will come and it is best to welcome it positively")
+      counter += 1
+    if each_word == "ecstatic":
+      feelings_list.append("ecstatic")
+      encouragement_list.append("do enjoy the time of your life")
+      counter += 1
+    if each_word == "sick":
+      feelings_list.append("sick")
+      encouragement_list.append("get well soon and hope you'll feel better tomorrow")
+      counter += 1
+    if each_word == "nervous":
+      feelings_list.append("nervous")
+      encouragement_list.append("remember to keep cool and calm down")
+      counter += 1
 
   if counter == 0:
     
